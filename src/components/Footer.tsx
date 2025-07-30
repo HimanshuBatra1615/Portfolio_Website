@@ -17,25 +17,25 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/RudrakshGupta0413",
+      href: "https://github.com/HimanshuBatra1615",
       label: "GitHub",
       color: "hover:text-gray-400",
     },
     {
       icon: Linkedin,
-      href: "https://www.linkedin.com/in/rudraksh-gupta-664b591b2/",
+      href: "https://www.linkedin.com/in/himanshu-batra-1610-ai/",
       label: "LinkedIn",
       color: "hover:text-blue-400",
     },
     {
       icon: Mail,
-      href: "mailto:rudrakshgupta40@gmail.com",
+      href: "mailto:batrahimanshu1610@gmail.com",
       label: "Email",
       color: "hover:text-red-400",
     },
     {
       icon: SiHashnode,
-      href: "https://rudrakshgupta40.hashnode.dev/",
+      href: "https://himanshubatra1610.hashnode.dev/",
       label: "Hashnode",
       color: "hover:text-blue-600",
     },
@@ -194,7 +194,7 @@ const Footer = () => {
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
-              <span>© {currentYear} Rudraksh Gupta. Made with</span>
+              <span>© {currentYear} Himanshu Batra. Made with</span>
               <motion.div
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ duration: 1, repeat: Infinity }}
@@ -204,7 +204,7 @@ const Footer = () => {
               <span>and lots of coffee</span>
             </div>
             <div className="text-center md:text-right">
-              <p>Designed & Developed by Rudraksh Gupta</p>
+              <p>Designed & Developed by Himanshu Batra</p>
             </div>
           </div>
         </motion.div>

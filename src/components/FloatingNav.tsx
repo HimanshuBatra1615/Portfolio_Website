@@ -28,18 +28,18 @@ const FloatingNav = () => {
   const socialItems = [
     {
       icon: Github,
-      href: "https://github.com/RudrakshGupta0413",
+      href: "https://github.com/HimanshuBatra1615",
       label: "GitHub",
     },
     {
       icon: Linkedin,
-      href: "https://www.linkedin.com/in/rudraksh-gupta-664b591b2/",
+      href: "https://www.linkedin.com/in/himanshu-batra-1610-ai/",
       label: "LinkedIn",
     },
-    { icon: Mail, href: "mailto:rudrakshgupta40@gmail.com", label: "Email" },
+    { icon: Mail, href: "mailto:batrahimanshu1610@gmail.com", label: "Email" },
     {
       icon: SiHashnode,
-      href: "https://rudrakshgupta40.hashnode.dev/",
+      href: "https://himanshubatra1610.hashnode.dev/",
       label: "Hashnode",
     },
   ];
