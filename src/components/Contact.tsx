@@ -32,14 +32,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "rudrakshgupta40@gmail.com",
+      value: "batrahimanshu1610@gmail.com",
       description: "Drop me a line anytime",
       color: "from-blue-400 to-blue-600",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+91 6396883674 ",
+      value: "+91 9354386559 ",
       description: "Mon-Sat from 8am to 10pm",
       color: "from-green-400 to-green-600",
     },

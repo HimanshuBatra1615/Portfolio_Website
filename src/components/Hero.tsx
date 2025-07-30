@@ -3,7 +3,7 @@ import { color, motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 // Using the uploaded image directly
 const developerPhoto =
-  "/lovable-uploads/527e4f40-1c8f-4c3f-b934-cf5361a2627d.png";
+  "/lovable-uploads/527e4f40-1c8f-4c3f-b934-cf5361a2627d.JPG";
 import ParticleBackground from "./ParticleBackground";
 import CodeSnippets from "./CodeSnippets";
 import { SiHashnode } from "react-icons/si";
@@ -183,12 +183,12 @@ const Hero = () => {
                 },
                 {
                   icon: Mail,
-                  href: "mailto:rudrakshgupta40@gmail.com",
+                  href: "mailto:batrahimanshu1610@gmail.com",
                   color: "hover:text-neon-pink",
                 },
                 {
                   icon: SiHashnode,
-                  href: "https://rudrakshgupta40.hashnode.dev/",
+                  href: "https://himanshubatra1610.hashnode.dev/",
                   color: "hover:text-neon-blue",
                 },
               ].map((social, index) => (
