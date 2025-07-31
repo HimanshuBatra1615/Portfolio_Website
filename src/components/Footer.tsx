@@ -106,7 +106,7 @@ const Footer = () => {
                 <Code className="h-6 w-6 text-primary" />
               </motion.div>
               <h3 className="text-xl font-bold gradient-text">
-                Rudraksh Gupta
+                Himanshu Batra
               </h3>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">

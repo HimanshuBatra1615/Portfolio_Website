@@ -4,28 +4,41 @@ import {
   siJavascript,
   siTypescript,
   siPython,
+  siR,
   siReact,
   siNextdotjs,
   siTailwindcss,
   siHtml5,
+  siAnaconda,
+  siMlflow,
   siNodedotjs,
-  siExpress,
+  siFlask,
   siFastapi,
   siMongodb,
   siPostgresql,
   siMysql,
-  siRedis,
+  siPandas,
+  siNumpy,
+  siTensorflow,
+  siScikitlearn,
+  siPytorch,
+  siOpencv,
+  siLangchain,
+  siHuggingface,
+  siSpacy,
   siFirebase,
-  siSupabase,
+  siSqlite,
   siDocker,
   siGit,
+  siDjango,
   siGithub,
   siVercel,
-  siFigma,
-  siLinux,
-  siFramer,
+  siKaggle,
+  siStreamlit,
+  siYolo,
+  siMediapipe,
   siGithubactions,
-  siApachekafka,
+  siPlotly,
   siCss,
   siPostman,
   siNetlify,
@@ -35,7 +48,7 @@ import {
   siShadcnui,
   siOpenai,
   siClerk,
-  siStripe,
+  siCplusplus,
 } from "simple-icons/icons";
 
 const Skills = () => {
@@ -46,16 +59,16 @@ const Skills = () => {
   const techSkills = [
     // Programming Languages
     {
-      name: "JavaScript",
-      iconPath: siJavascript.path,
-      hex: siJavascript.hex,
+      name: "Python",
+      iconPath: siPython.path,
+      hex: siPython.hex,
       category: "Languages",
       color: "from-yellow-400 to-yellow-600",
     },
     {
-      name: "TypeScript",
-      iconPath: siTypescript.path,
-      hex: siTypescript.hex,
+      name: "Javascript",
+      iconPath: siJavascript.path,
+      hex: siJavascript.hex,
       category: "Languages",
       color: "from-blue-400 to-blue-600",
     },
@@ -66,12 +79,27 @@ const Skills = () => {
       color: "from-red-400 to-red-600",
     },
     {
-      name: "Python",
-      iconPath: siPython.path,
-      hex: siPython.hex,
+      name: "R",
+      iconPath: siR.path,
+      hex: siR.hex,
       category: "Languages",
       color: "from-yellow-400 to-green-600",
     },
+    {
+      name: "Typescript",
+      iconPath: siTypescript.path,
+      hex: siTypescript.hex,
+      category: "Languages",
+      color: "from-yellow-400 to-green-600",
+    },
+    {
+      name: "C++",
+      iconPath: siCplusplus.path,
+      hex: siCplusplus.hex,
+      category: "Languages",
+      color: "from-yellow-400 to-green-600",
+    },
+
 
     // Frontend Technologies
     {
@@ -125,9 +153,9 @@ const Skills = () => {
       color: "from-green-400 to-green-600",
     },
     {
-      name: "Express",
-      iconPath: siExpress.path,
-      hex: siExpress.hex,
+      name: "Flask",
+      iconPath: siFlask.path,
+      hex: siFlask.hex,
       category: "Backend",
       color: "from-gray-400 to-gray-600",
     },
@@ -142,6 +170,13 @@ const Skills = () => {
       name: "Socket.io",
       iconPath: siSocketdotio.path,
       hex: siSocketdotio.hex,
+      category: "Database",
+      color: "from-pink-400 to-emerald-700",
+    },
+    {
+      name: "Django",
+      iconPath: siDjango.path,
+      hex: siDjango.hex,
       category: "Database",
       color: "from-pink-400 to-emerald-700",
     },
@@ -169,13 +204,6 @@ const Skills = () => {
       color: "from-blue-200 to-blue-500",
     },
     {
-      name: "Redis",
-      iconPath: siRedis.path,
-      hex: siRedis.hex,
-      category: "Database",
-      color: "from-pink-400 to-emerald-700",
-    },
-    {
       name: "Firebase",
       iconPath: siFirebase.path,
       hex: siFirebase.hex,
@@ -183,14 +211,96 @@ const Skills = () => {
       color: "from-yellow-400 to-orange-600",
     },
     {
-      name: "Supabase",
-      iconPath: siSupabase.path,
-      hex: siSupabase.hex,
+      name: "SQLite",
+      iconPath: siSqlite.path,
+      hex: siSqlite.hex,
       category: "Database",
       color: "from-emerald-400 to-emerald-700",
     },
 
-    // Cloud & DevOps
+    // Libraries
+
+    {
+      name: "Numpy",
+      iconPath: siNumpy.path,
+      hex: siNumpy.hex,
+      category: "Libraries",
+      color: "from-blue-400 to-blue-600",
+    },
+    {
+      name: "Pandas",
+      iconPath: siPandas.path,
+      hex: siPandas.hex,
+      category: "Libraries",
+      color: "from-purple-700 to-green-600",
+    },
+    {
+      name: "Matplotlib",
+      iconPath: siPython.path,
+      hex: siPython.hex,
+      category: "Libraries",
+      color: "from-red-400 to-red-600",
+    },
+    {
+      name: "Scikit-learn",
+      iconPath: siScikitlearn.path,
+      hex: siScikitlearn.hex,
+      category: "Libraries",
+      color: "from-slate-200 to-slate-400",
+    },
+    {
+      name: "Tensorflow",
+      iconPath: siTensorflow.path,
+      hex: siTensorflow.hex,
+      category: "Libraries",
+      color: "from-blue-400 to-red-600",
+    },
+    {
+      name: "PyTorch",
+      iconPath: siPytorch.path,
+      hex: siPytorch.hex,
+      category: "Libraries",
+      color: "from-gray-400 to-gray-600",
+    },
+    {
+      name: "OpenCV",
+      iconPath: siOpencv.path,
+      hex: siOpencv.hex,
+      category: "Libraries",
+      color: "from-blue-400 to-blue-600",
+    },
+    {
+      name: "Transformer(Hugging Face)",
+      iconPath: siHuggingface.path,
+      hex: siHuggingface.hex,
+      category: "Libraries",
+      color: "from-red-400 to-red-600",
+    },
+
+    {
+      name: "LangChain",
+      iconPath: siLangchain.path,
+      hex: siLangchain.hex,
+      category: "Libraries",
+      color: "from-red-400 to-red-600",
+    },
+
+    {
+      name: "NLTK/spaCy",
+      iconPath: siSpacy.path,
+      hex: siSpacy.hex,
+      category: "Libraries",
+      color: "from-red-400 to-red-600",
+    },
+    {
+      name: "Streamlit",
+      iconPath: siStreamlit.path,
+      hex: siStreamlit.hex,
+      category: "Libraries",
+      color: "from-red-400 to-red-600",
+    },
+
+    // DevOps/Deployment
 
     {
       name: "Docker",
@@ -200,9 +310,9 @@ const Skills = () => {
       color: "from-blue-400 to-blue-600",
     },
     {
-      name: "Kafka",
-      iconPath: siApachekafka.path,
-      hex: siApachekafka.hex,
+      name: "Anaconda",
+      iconPath: siAnaconda.path,
+      hex: siAnaconda.hex,
       category: "DevOps",
       color: "from-purple-700 to-green-600",
     },
@@ -249,6 +359,15 @@ const Skills = () => {
       color: "from-red-400 to-red-600",
     },
 
+    {
+      name: "MLflow",
+      iconPath: siMlflow.path,
+      hex: siMlflow.hex,
+      category: "DevOps",
+      color: "from-red-400 to-red-600",
+    },
+
+
     // Authentication
     
     {
@@ -266,23 +385,23 @@ const Skills = () => {
 
     // Tools
     {
-      name: "Figma",
-      iconPath: siFigma.path,
-      hex: siFigma.hex,
-      category: "Design",
+      name: "Kaggle",
+      iconPath: siKaggle.path,
+      hex: siKaggle.hex,
+      category: "Tools",
       color: "from-purple-400 to-purple-600",
     },
     {
-      name: "Framer Motion",
-      iconPath: siFramer.path,
-      hex: siFramer.hex,
-      category: "Design",
+      name: "YOLOv8",
+      iconPath: siYolo.path,
+      hex: siYolo.hex,
+      category: "Tools",
       color: "from-purple-400 to-purple-600",
     },
     {
-      name: "Linux",
-      iconPath: siLinux.path,
-      hex: siLinux.hex,
+      name: "MediaPipe",
+      iconPath: siMediapipe.path,
+      hex: siMediapipe.hex,
       category: "Tools",
       color: "from-yellow-400 to-yellow-600",
     },
@@ -308,9 +427,9 @@ const Skills = () => {
       color: "from-purple-400 to-purple-600",
     },
     {
-      name: "Stripe",
-      iconPath: siStripe.path,
-      hex: siStripe.hex,
+      name: "Plotly",
+      iconPath: siPlotly.path,
+      hex: siPlotly.hex,
       category: "Tools",
       color: "from-green-400 to-green-600",
     },
@@ -418,10 +537,10 @@ const Skills = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl lg:text-5xl font-bold gradient-text mb-4">
-            Tech Arsenal
+            🔬 My Tech Core
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Technologies I wield to craft digital masterpieces
+           Constellation of tools and frameworks I use to innovate and build.
           </p>
         </motion.div>
 
