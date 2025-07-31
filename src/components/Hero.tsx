@@ -3,7 +3,7 @@ import { color, motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 // Using the uploaded image directly
 const developerPhoto =
-  "/lovable-uploads/527e4f40-1c8f-4c3f-b934-cf5361a2627d.JPG";
+  "/lovable_uploads/527e4f40-1c8f-4c3f-b934-cf5361a2627d.JPG";
 import ParticleBackground from "./ParticleBackground";
 import CodeSnippets from "./CodeSnippets";
 import { SiHashnode } from "react-icons/si";
@@ -85,9 +85,9 @@ const Hero = () => {
                     repeatDelay: 5,
                   }}
                 >
-                  Rudraksh
+                  Himanshu
                 </motion.span>{" "}
-                <span>Gupta</span>
+                <span>Batra</span>
               </motion.h1>
 
               <motion.div
@@ -97,7 +97,7 @@ const Hero = () => {
                 className="relative"
               >
                 <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-muted-foreground">
-                  Full Stack Developer , Software Engineer &
+                  Data Scientist, Machine Learning Engineer &
                   <motion.span
                     className="text-accent ml-2"
                     animate={{
@@ -117,9 +117,10 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 }}
             >
-              Turning coffee into code and ideas into reality. I build
-              full-stack solutions with modern web tech, a love for learning,
-              and a passion for digital innovation.
+              Turning data into insights and models into impact. A dedicated
+              Data Science and ML Engineer, I leverage cutting-edge algorithms
+              and robust data pipelines to transform raw data into actionable 
+              intelligence and innovative AI applications.
             </motion.p>
 
             <motion.div
@@ -173,12 +174,12 @@ const Hero = () => {
               {[
                 {
                   icon: Github,
-                  href: "https://github.com/RudrakshGupta0413",
+                  href: "https://github.com/HimanshuBatra1610",
                   color: "hover:text-neon-purple",
                 },
                 {
                   icon: Linkedin,
-                  href: "https://www.linkedin.com/in/rudraksh-gupta-664b591b2/",
+                  href: "https://www.linkedin.com/in/himanshu-batra-1610-ai/",
                   color: "hover:text-neon-cyan",
                 },
                 {
