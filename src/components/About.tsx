@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { Code, Coffee, Heart, Zap } from "lucide-react";
+import { Code, HardDrive, Settings, Zap } from "lucide-react";
 
 const About = () => {
   const ref = useRef(null);
@@ -10,25 +10,25 @@ const About = () => {
     {
       icon: Code,
       label: "Projects Completed",
-      value: "15+",
+      value: "20+",
       color: "from-cyan-400 to-cyan-600",
     },
     {
-      icon: Coffee,
-      label: "Cups of Coffee",
-      value: "1000+",
+      icon: HardDrive,
+      label: "Terabytes of Data Processed",
+      value: "250+",
       color: "from-amber-400 to-amber-600",
     },
     {
-      icon: Heart,
-      label: "Happy Clients",
-      value: "10+",
+      icon: Settings,
+      label: "ML Models Deployed",
+      value: "15+",
       color: "from-pink-400 to-pink-600",
     },
     {
       icon: Zap,
       label: "Years Experience",
-      value: "4+",
+      value: "7+",
       color: "from-purple-400 to-purple-600",
     },
   ];
@@ -237,20 +237,23 @@ const About = () => {
               className="space-y-4"
             >
               <h3 className="text-2xl font-bold text-accent mb-4">
-                Full Stack Developer & Problem Solver
+                Data Scientist & Machine Learning Engineer
               </h3>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                I'm a full-stack developer with 4+ years of experience building
-                end-to-end web applications through freelance projects,
-                internships, and hands-on work. I specialize in creating
-                responsive front-ends, scalable back-ends, and clean,
-                maintainable code.
+                I'm a Data Science and Machine Learning expert with 7+ years of experience 
+                building intelligent systems through hands-on projects, AI-driven solution, 
+                and real-world applications. My work involves the complete lifecycle of data
+                science projects, from preparing and processing large datasets, including ETL &
+                feature engineering, to the development, training, and evaluation of various ML models.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Passionate about solving real-world problems, I enjoy exploring
-                new technologies, contributing to open source, and mentoring
-                fellow developers. Fueled by curiosity (and coffee), I embrace
-                every challenge as an opportunity to learn and grow.
+                Specializing in Machine Learning, Deep Learning, and Explainable AI, I architect 
+                end-to-end solutions — from data engineering to model optimization — that power predictive 
+                engines, recommendation systems, and AI-powered automation.
+                Furthermore, I am adept at deploying, monitoring, and maintaining highly available 
+                ML models in cloud environments (e.g., AWS, Azure, GCP), utilizing MLOps best practices for 
+                continuous integration/continuous delivery (CI/CD) and scalable inference. 
+                Driven by precision and purpose, I don’t just build models — I solve problems at scale.
               </p>
             </motion.div>
 
@@ -266,10 +269,10 @@ const About = () => {
               </h4>
               <ul className="space-y-2">
                 {[
-                  "Creating intuitive user experiences that solve real problems",
-                  "Writing clean, efficient code that stands the test of time",
-                  "Collaborating with teams to bring innovative ideas to life",
-                  "Staying current with emerging technologies and best practices",
+                  "Engineering highly optimized and resilient ML infrastructure and pipelines.",
+                  "Pioneering innovative approaches in NLP, Computer Vision & Generative AI",
+                  "Continuously researching and integrating state-of-the-art advancements in AI, ML, and data engineering.",
+                  "Developing novel algorithms and advanced models to unlock non-obvious insights from complex data.",
                 ].map((item, index) => (
                   <motion.li
                     key={index}
