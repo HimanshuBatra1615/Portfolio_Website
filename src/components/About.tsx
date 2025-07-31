@@ -243,16 +243,14 @@ const About = () => {
                 I'm a Data Science and Machine Learning expert with 7+ years of experience 
                 building intelligent systems through hands-on projects, AI-driven solution, 
                 and real-world applications. My work involves the complete lifecycle of data
-                science projects, from preparing and processing large datasets, including ETL &
-                feature engineering, to the development, training, and evaluation of various ML models.
+                science projects, from preparing and processing large datasets, to the 
+                development, training, and evaluation of various ML models.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
                 Specializing in Machine Learning, Deep Learning, and Explainable AI, I architect 
-                end-to-end solutions — from data engineering to model optimization — that power predictive 
-                engines, recommendation systems, and AI-powered automation.
-                Furthermore, I am adept at deploying, monitoring, and maintaining highly available 
-                ML models in cloud environments (e.g., AWS, Azure, GCP), utilizing MLOps best practices for 
-                continuous integration/continuous delivery (CI/CD) and scalable inference. 
+                end-to-end solutions — I am adept at deploying, monitoring, and maintaining highly 
+                available ML models in cloud environments , utilizing MLOps best practices for 
+                continuous integration (CI/CD) and scalable inference. 
                 Driven by precision and purpose, I don’t just build models — I solve problems at scale.
               </p>
             </motion.div>
@@ -271,8 +269,8 @@ const About = () => {
                 {[
                   "Engineering highly optimized and resilient ML infrastructure and pipelines.",
                   "Pioneering innovative approaches in NLP, Computer Vision & Generative AI",
-                  "Continuously researching and integrating state-of-the-art advancements in AI, ML, and data engineering.",
-                  "Developing novel algorithms and advanced models to unlock non-obvious insights from complex data.",
+                  "Researching and integrating state-of-the-art advancements in ML and data science.",
+                  "Developing novel algorithms & adv. models to unlock insights from complex data.",
                 ].map((item, index) => (
                   <motion.li
                     key={index}

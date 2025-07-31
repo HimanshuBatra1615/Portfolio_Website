@@ -8,28 +8,28 @@ const Testimonials = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const testimonials = [
     {
-      name: "Amit Gurawa",
-      role: "CEO, Amexus AI",
+      name: "Neena C John",
+      role: "Leader Analyst at YMCA Canada",
       content:
-        "Rudraksh made a real impact during his internship. From web apps to AI voice integrations, he handled every task with focus and speed. A sharp mind with a proactive approach—great to work with!",
+        "Himanshu led the development of a real-time Brain Tumor Detection System using deep CNNs and U-Net architectures. His ability to optimize large-scale biomedical imaging models with precision and explainability was phenomenal. He's a rare mix of research brilliance and engineering execution.",
       rating: 5,
       avatar: "/Testimonial1.png",
     },
     {
-      name: "Ruchi",
-      role: "Founder, Ruchi Art House",
+      name: "Himanshu Gulati",
+      role: "Founder, StratifyMe",
       content:
-        "Rudraksh brought my vision to life with a beautiful, easy-to-navigate website. He listened patiently and delivered exactly what my small business needed. Super happy with the result!",
+        "I worked with Himanshu on a Deep Learning-based Fraud Detection Engine for real-time transaction scoring. He implemented transformer-based sequence models to detect anomalous financial behaviors with remarkable accuracy. His architectural decisions were rock solid.",
       rating: 5,
-      avatar: "/Testimonial2.png",
+      avatar: "/Testimonial2.jpeg",
     },
     {
-      name: "Andrew Cook",
-      role: "Tech Consultant & Branding Coach",
+      name: "Manan Taneja",
+      role: "Associate Business Analyst at Gallagher",
       content:
-        "Rudraksh did a great job building my personal site. It's clean, professional, and truly reflects my brand. He’s efficient, thoughtful, and easy to collaborate with.",
+        "Himanshu built an AI-driven Personalized Learning System using Reinforcement Learning and BERT embeddings to adapt content dynamically to a student's cognitive load and learning style. This is next-level educational intelligence—his innovation truly pushes boundaries.",
       rating: 4,
-      avatar: "#",
+      avatar: "/Testimonial3.jpeg",
     },
   ];
 
