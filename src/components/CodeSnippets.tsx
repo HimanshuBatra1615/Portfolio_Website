@@ -5,13 +5,13 @@ const CodeSnippets = () => {
   const [currentSnippet, setCurrentSnippet] = useState(0);
   
   const snippets = [
-    "const developer = { skills: ['React.js', 'Next.js', 'Java'] };",
-    "function createAwesome() { return innovation + creativity; }",
-    "const passion = code => results.map(dream => reality);",
+    "const ML & Data Engineer = { skills: ['Machine Learning 📊', 'Tensorflow 🤖', 'Java'] };",
+    "function solve(problem) { return MLModel.train(data).predict(problem); }",
+    "const insight = data => models.reduce((acc, algo) => acc + algo.learn(data), 0);",
     "while(learning) { skills++; opportunities.push(new Success()); }",
     "const magic = await Promise.resolve(hardWork + dedication);",
-    "// fueledBy.includes('coffee ☕') && playlist.isPlaying('lofi 🎧');",
-    "try { code(); } catch (error) { console.log('Debug mode: ON 🐞'); }",
+    "// fueledBy.includes('curiosity 💡') && brain.playing('deep focus 🎧');",
+    "try { deploy(model); } catch (error) { debug('hyperparameters 🔧'); }",
     "setInterval(() => console.log('Still coding... 💻'), 10000);",
     "if (bug.exists()) { fix(); coffee.refill(); tryAgain(); }",
   ];

@@ -60,13 +60,13 @@ const Contact = () => {
   ];
 
   const services = [
+    { icon: "🤖", text: "AI-Powered Automation Solutions" },
     { icon: "🚀", text: "Full-stack web development" },
-    { icon: "💻", text: "Frontend web development" },
-    { icon: "👨‍💻", text: "Backend web development" },
-    { icon: "💡", text: "Technical consulting" },
-    { icon: "🔧", text: "Code reviews & optimization" },
-    { icon: "☁️", text: "Cloud deployment & DevOps" },
-    { icon: "🎨", text: "UI/UX design collaboration" },
+    { icon: "🧠", text: "Machine Learning Model Development" },
+    { icon: "📊", text: "Data Analysis & Visualization" },
+    { icon: "💡", text: "Technical consulting & Code Review" },
+    { icon: "☁️", text: "Cloud Integration (AWS, GCP & Azure) & DevOps" },
+    { icon: "🧪", text: "Research & Prototype Development" },
   ];
 
   return (
