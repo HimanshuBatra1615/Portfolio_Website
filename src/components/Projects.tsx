@@ -280,43 +280,47 @@ const Projects = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const projects = [
     {
-      title: "Reels Pro App (Coming Soon)",
+      title: "EduSync - Empowering Neurodiversity",
       description:
-        "A scalable full-stack short video platform with secure auth, public feeds, video uploads via ImageKit, user profiles with privacy controls, and real-time performance powered by Redis. Built for scalability and performance",
+        "Personalized AI speech therapy for neurodiverse students. This Project analyzes pronunciation, offers real-time feedback and  provide conversational practice to boost confidence, improve communication & social skills. It uses AI to analyze children's pronunciation during an initial test of letters and words, identifying problematic phonemes and then offers personalized practice sessions with real-time feedback to help children improve specific sounds.",
       tech: [
         "Next.js",
-        "TypeScript",
+        "Node.js",
+        "AWS",
+        "GenAI",
+        "Llama 3.1",
+        "React+Vite",
+        "Groq Cloud",
+        "Flask",
+        "MongoDB Atlas",
         "Tailwind CSS",
-        "shadcn/ui",
-        "MongoDB",
-        "Redis",
-        "ImageKit",
-        "NextAuth",
+        "Python",
+        "Streamlit",
       ],
       image:
-        "/project6.png",
+        "/project6.jpeg",
       liveUrl: "#",
       githubUrl: "#",
     },
     {
-      title: "PingPanda: SaaS Event Monitoring App",
+      title: "SpaceSight - AI detection model for tools in space station environments",
       description:
-        "PingPanda is a real-time SaaS event monitoring app featuring a user-friendly dashboard, instant Discord alerts for categorized events, Clerk authentication, Stripe billing, and scalable performance powered by Redis and rate limiting.",
+        "SpaceSight is a YOLOv8-powered object detection model trained exclusively on synthetic space station data using Duality AI's Falcon platform used to detects and classify mission-critical equipment irrespective of real-world challenges like varied lighting, occlusion, and object rotation in zero-gravity environments.",
       tech: [
-        "Next.js",
-        "TypeScript",
-        "PostgreSQL",
-        "Tailwind CSS",
-        "Clerk",
-        "Discord",
-        "Redis",
-        "shadcn/ui",
+        "YOLOv8",
+        "OpenCV2",
+        "Python",
+        "Anaconda",
+        "Falcon",
+        "PyTorch-Grad-CAM",
+        "Matplotlib ",
+        "NumPy",
         "Stripe",
       ],
       image: "/project1.png",
-      liveUrl: "https://ping-panda-ai-saa-s-monitoring-plat.vercel.app/",
+      liveUrl: "#",
       githubUrl:
-        "https://github.com/RudrakshGupta0413/PingPanda_AI_SaaS_Monitoring_Platform",
+        "#",
     },
     {
       title: "My Personal Portfolio",
@@ -331,8 +335,8 @@ const Projects = () => {
         "Slack",
       ],
       image: "/project2.png",
-      liveUrl: "https://my-personal-portfolio-livid-phi.vercel.app/",
-      githubUrl: "#",
+      liveUrl: "https://portfolio-website-nine-theta-74.vercel.app/",
+      githubUrl: "https://github.com/HimanshuBatra1615/Portfolio_Website",
     },
     {
       title: "Saas Landing Page",
@@ -340,9 +344,9 @@ const Projects = () => {
         "Pixel-perfect SaaS landing page built with React, Next.js, Tailwind CSS & Framer Motion—featuring advanced animations, drag-and-drop UI, and smooth interactive effects.",
       tech: ["React.js", "Next.js", "Framer Motion", "Tailwind CSS"],
       image: "/project3.png",
-      liveUrl: "https://saas-landing-page-layers-rho.vercel.app/",
+      liveUrl: "#",
       githubUrl:
-        "https://github.com/RudrakshGupta0413/Saas-Landing-Page-Layers",
+        "#",
     },
     {
       title: "Ruchi Art House Branding Website",
@@ -358,7 +362,7 @@ const Projects = () => {
         "WhatsApp",
       ],
       image: "/project4.png",
-      liveUrl: "https://www.ruchiarthouse.com/",
+      liveUrl: "#",
       githubUrl: "#",
     },
     {
@@ -375,7 +379,7 @@ const Projects = () => {
       ],
       image: "/project5.png",
       liveUrl: "#",
-      githubUrl: "https://github.com/RudrakshGupta0413/AmexusAI-DEmo",
+      githubUrl: "#",
     },
   ];
 
@@ -572,7 +576,7 @@ const Projects = () => {
           >
             <Button
               onClick={() =>
-                window.open("https://github.com/RudrakshGupta0413", "_blank")
+                window.open("https://github.com/HimanshuBatra1610", "_blank")
               }
               size="lg"
               className="glass-effect border border-accent/30 hover:border-accent hover:bg-accent/10 group px-8 py-6 text-lg relative overflow-hidden"
