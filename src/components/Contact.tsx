@@ -405,7 +405,7 @@ const Contact = () => {
 
                 <form
                   // onSubmit={handleSubmit}
-                  action="https://formcarry.com/s/f9XAvWTXvAS"
+                  action="https://formcarry.com/s/vNaFNwbXQMj"
                   method="POST"
                   className="space-y-6"
                 >
