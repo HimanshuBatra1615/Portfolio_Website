@@ -297,8 +297,7 @@ const Projects = () => {
         "Python",
         "Streamlit",
       ],
-      image:
-        "/project6.jpeg",
+      image:"/project6.png",
       liveUrl: "#",
       githubUrl: "#",
     },
@@ -576,7 +575,7 @@ const Projects = () => {
           >
             <Button
               onClick={() =>
-                window.open("https://github.com/HimanshuBatra1610", "_blank")
+                window.open("https://github.com/HimanshuBatra1615", "_blank")
               }
               size="lg"
               className="glass-effect border border-accent/30 hover:border-accent hover:bg-accent/10 group px-8 py-6 text-lg relative overflow-hidden"

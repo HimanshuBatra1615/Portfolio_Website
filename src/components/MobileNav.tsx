@@ -79,7 +79,7 @@ const MobileNav = () => {
             >
               <Code className="h-6 w-6 text-primary" />
             </motion.div>
-            <h3 className="text-xl font-bold gradient-text">Rudraksh Gupta</h3>
+            <h3 className="text-xl font-bold gradient-text">Himanshu Batra</h3>
           </div>
 
           {/* Menu Toggle */}
