@@ -1,4 +1,4 @@
-import { useRef } from "react";
+ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Calendar, Clock, ArrowRight, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
