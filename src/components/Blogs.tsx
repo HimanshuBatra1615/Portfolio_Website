@@ -1,4 +1,4 @@
- import { useRef } from "react";
+import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Calendar, Clock, ArrowRight, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -10,13 +10,13 @@ const Blogs = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "From React.js to Next.js: Elevate Your Web Development Game",
+      title: "Vector Databases in GenAI: What, Why & When?",
       excerpt:
-        "Discover how transitioning from React.js to Next.js can supercharge your web development workflow with features like server-side rendering, API routes, and built-in performance optimization.",
+        "Exploring the Role of Vector Databases in Powering Next-Gen AI Applications.",
       date: "2024-06-04",
-      readTime: "6 min read",
-      tags: ["React", "Next.js", "Web Development", "Full Stack Development"],
-      url: "https://rudrakshgupta40.hashnode.dev/from-reactjs-to-nextjs-elevate-your-web-development-game",
+      readTime: "5 min read",
+      tags: ["Generative AI", "Vector Databases", "Machine Learning", "Artificial Intelligence"],
+      url: "https://himanshubatra1610.hashnode.dev/vector-databases-in-genai-what-why-and-when",
       image: "/blog1.png",
     },
 
