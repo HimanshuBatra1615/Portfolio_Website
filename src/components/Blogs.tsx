@@ -13,7 +13,7 @@ const Blogs = () => {
       title: "Vector Databases in GenAI: What, Why & When?",
       excerpt:
         "Exploring the Role of Vector Databases in Powering Next-Gen AI Applications.",
-      date: "2024-06-04",
+      date: "2025-08-09",
       readTime: "5 min read",
       tags: ["Generative AI", "Vector Databases", "Machine Learning", "Artificial Intelligence"],
       url: "https://himanshubatra1610.hashnode.dev/vector-databases-in-genai-what-why-and-when",
@@ -22,13 +22,13 @@ const Blogs = () => {
 
     {
       id: 2,
-      title: "How to start with React.js: A Simple Guide for Beginners",
+      title: "Cracking the Code of Connections: How Graph Neural Networks See the Unseen",
       excerpt:
-        "A beginner-friendly guide to help you get started with React.js. Learn the core concepts, project setup, and how to build your first interactive UI components step by step.",
-      date: "2024-06-07",
+        "A beginner-friendly guide to help you get started with Graph Neural Networks (GNNs). Learn the core concepts, project setup, and how to build your first GNN model step by step.",
+      date: "2024-08-10",
       readTime: "5 min read",
-      tags: ["React", "Web Development", "Javascript"],
-      url: "https://rudrakshgupta40.hashnode.dev/how-to-start-with-reactjs-a-simple-guide-for-beginners",
+      tags: ["Graph Neural Networks", "Machine Learning", "Deep Learning", "Artificial Intelligence", ""],
+      url: "https://himanshubatra1610.hashnode.dev/",
       image: "/blog2.png",
     },
     {
