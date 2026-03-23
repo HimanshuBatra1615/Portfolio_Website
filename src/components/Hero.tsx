@@ -174,7 +174,7 @@ const Hero = () => {
               {[
                 {
                   icon: Github,
-                  href: "https://github.com/HimanshuBatra1610",
+                  href: "https://github.com/HimanshuBatra1615",
                   color: "hover:text-neon-purple",
                 },
                 {
